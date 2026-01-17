@@ -120,7 +120,7 @@ export default function Home() {
     src="/enrollhire-logo.png"
     alt="EnrollHire logo"
     style={{ height: 56 }}
-  />
+  </h1>
 </div>
 <p style={{ color: '#64748B', maxWidth: 720 }}>
   EnrollHire helps students explore college majors and career options based on their courses.
