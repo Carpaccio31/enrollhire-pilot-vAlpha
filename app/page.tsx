@@ -115,7 +115,23 @@ export default function Home() {
 
   return (
     <main style={{ padding: 40, fontFamily: 'system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial' }}>
-      <h1 style={{ marginBottom: 6 }}>EnrollHire (Pilot v1)</h1>
+      <h1 <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 16 }}>
+  <img
+    src="/enrollhire-logo.png"
+    alt="EnrollHire logo"
+    style={{ height: 56 }}
+  />
+</div>
+
+<h1 style={{ margin: '6px 0', color: '#0F172A' }}>
+  Explore education & career pathways
+</h1>
+
+<p style={{ color: '#64748B', maxWidth: 720 }}>
+  EnrollHire helps students explore college majors and career options based on their courses.
+  This tool supports exploration and conversation — it does not make decisions or guarantees outcomes.
+</p>
+</h1>
       <div style={{ color: '#6b7280', marginBottom: 18 }}>
         Grades 8–12 • Course-to-Major-to-Career Pathways • <b>{result?.mode ?? 'ready'}</b>
       </div>
