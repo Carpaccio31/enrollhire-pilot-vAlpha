@@ -157,11 +157,7 @@ export default function Home() {
     }}>
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 10 }}>
-        <img
-          src="/enrollhire-logo.png"
-          alt="EnrollHire"
-          style={{ height: 52 }}
-        />
+        <img src="/Enroll%20Hire.PNG" alt="EnrollHire" style={{ height: 52 }} />
         <span style={{
           padding: '4px 10px',
           borderRadius: 999,
