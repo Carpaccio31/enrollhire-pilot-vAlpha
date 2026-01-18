@@ -1,0 +1,17 @@
+[
+  {"id":"ALG1","title":"Algebra I","category":"Math","grades":[8,9,10],"tags":["quant","logic"],"prereqs":[]},
+  {"id":"GEO","title":"Geometry","category":"Math","grades":[9,10,11],"tags":["quant","spatial"],"prereqs":["ALG1"]},
+  {"id":"ALG2","title":"Algebra II","category":"Math","grades":[10,11,12],"tags":["quant","modeling"],"prereqs":["GEO"]},
+
+  {"id":"BIO","title":"Biology","category":"Science","grades":[9,10,11],"tags":["science","lab"],"prereqs":[]},
+  {"id":"CHEM","title":"Chemistry","category":"Science","grades":[10,11,12],"tags":["science","lab"],"prereqs":["BIO"]},
+
+  {"id":"CS1","title":"Intro to Computer Science","category":"STEM/CTE","grades":[9,10,11,12],"tags":["computing","logic"],"prereqs":[]},
+  {"id":"APCS","title":"AP Computer Science","category":"STEM/CTE","grades":[10,11,12],"tags":["computing","programming"],"prereqs":["CS1"]},
+
+  {"id":"BUS","title":"Business","category":"CTE","grades":[9,10,11,12],"tags":["business","operations"],"prereqs":[]},
+  {"id":"MKT","title":"Marketing","category":"CTE","grades":[10,11,12],"tags":["business","communication"],"prereqs":["BUS"]},
+
+  {"id":"ENG10","title":"English 10","category":"English","grades":[10],"tags":["writing","communication"],"prereqs":[]},
+  {"id":"USH","title":"US History","category":"Social Studies","grades":[11],"tags":["critical-thinking","civic"],"prereqs":[]}
+]
