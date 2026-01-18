@@ -1,0 +1,29 @@
+{
+  "tagToSkills": {
+    "quant": ["Quantitative reasoning", "Problem solving"],
+    "logic": ["Logical reasoning"],
+    "science": ["Scientific thinking"],
+    "lab": ["Lab & investigation"],
+    "computing": ["Computational thinking"],
+    "programming": ["Programming basics"],
+    "business": ["Business fundamentals"],
+    "operations": ["Operations & planning"],
+    "writing": ["Writing"],
+    "communication": ["Communication"],
+    "critical-thinking": ["Critical thinking"],
+    "civic": ["Civic literacy"]
+  },
+  "skillToMajors": {
+    "Computational thinking": ["Computer Science", "Information Systems", "Data Science"],
+    "Quantitative reasoning": ["Economics", "Engineering", "Business Analytics"],
+    "Scientific thinking": ["Biology", "Public Health", "Environmental Science"],
+    "Writing": ["Communications", "Education", "Journalism"],
+    "Operations & planning": ["Supply Chain", "Business", "Industrial Engineering"]
+  },
+  "majorToIndustries": {
+    "Computer Science": ["Technology", "Healthcare (tech-enabled)", "Finance"],
+    "Public Health": ["Healthcare", "Public Sector", "Nonprofit"],
+    "Business Analytics": ["Business", "Consulting", "Finance"],
+    "Supply Chain": ["Logistics", "Manufacturing", "Retail"]
+  }
+}
